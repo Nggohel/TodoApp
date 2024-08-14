@@ -1,0 +1,83 @@
+/* CSS for responsive layout */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 95%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 5px;
+  }
+}
+
+/* Center alignment for all content */
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+button,
+select {
+  width: 100%;
+  max-width: 500px;
+  margin: 5px 0;
+}
+
+button {
+  width: auto;
+  max-width: 200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card centering */
+.card {
+  margin: 20px auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+.list-group-item {
+  margin: 10px 0;
+}
+
+/* Responsive buttons */
+button {
+  width: 100%;
+  margin: 5px 0;
+}
